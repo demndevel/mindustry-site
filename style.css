@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-wrap {
+    margin-left: 20vw;
+}
+
+.nav-l{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff !important;
+    margin-right: 4vw;
+}
+nav {
+    margin-right: 1vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    font-weight:bold;
+}
+
+
+.nav-l:hover {
+    border-bottom: 3px solid #ef5531;
+    font-weight: bolder;
+}
+.header-wrap img {
+    margin-left: 10px;
+}
+
+main {
+    padding-top: 7vw;
+    text-align: center;
+
+}
+body {
+    
+    background-image: url("https://img.itch.zone/aW1nLzIzOTg5MjMucG5n/original/GYqcmu.png");
+    background-position: left bottom;
+    
+}
+.main-content {
+    background-color: rgba(0,0,0,0.3);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.main-content h1, .main-content p{
+    text-align: center;
+    word-wrap: break-word;
+    color: snow;
+    font-family: 'Yusei', sans-serif;
+    
+    
+}
+.d-block {
+    background-color: rgba(0,0,0,0.3);
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.foot-wrap {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.f-ul {
+    list-style-type: none;
+}
+.f-li1 a{
+    text-decoration: none;
+    color: darkslategrey !important;
+    display: inline;
+    margin-right: 2vw;
+}
+.foot-wrap p {
+    color: darkslategrey !important;
+}
